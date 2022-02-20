@@ -25,5 +25,5 @@ ___
 
 #### Referencias
 - [Documentación asignatura](https://github.com/otsedom/otsedom.github.io/blob/main/CIU/P2/README.md)
-- [Sonido Tifón](https://freewavesamples.com/)
+- [Sonido Tifón](https://freewavesamples.com/casio-mt-600-typhoon-sound)
 - [Documentación Processing](https://processing.org/reference)
