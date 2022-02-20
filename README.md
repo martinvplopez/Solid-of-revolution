@@ -12,11 +12,11 @@ ___
 #### Recorrido interfaz
 ##### Al iniciar el programa se podrá apreciar un título llamativo que no entra en detalles matemáticos para que sea atractivo y accesible. También existirá un botón (**AYUDA**) donde pulsando se mostrarán instrucciones sencillas para el correcto funcionamiento. El usuario trazará una línea y al ejecutar la revolución sonará un sonido de un tifón para realzar la idea de rotación.
 
-![Imagen Menú](https://github.com/martinvplopez/Pong-CIU/blob/main/menu.jpg)
+![Imagen Principal](https://github.com/martinvplopez/Solid-of-revolution/blob/main/Practica2_SolidoRevolucion/images/ventanaDefault.jpg)
 ####
-![Imagen Ayuda](https://github.com/martinvplopez/Pong-CIU/blob/main/help.jpg)
+![Imagen Dibujo](https://github.com/martinvplopez/Solid-of-revolution/blob/main/Practica2_SolidoRevolucion/images/ventanaDraw.jpg)
 ####
-![Imagen Partida](https://github.com/martinvplopez/Pong-CIU/blob/main/game.jpg)
+![Imagen Sólido](https://github.com/martinvplopez/Solid-of-revolution/blob/main/Practica2_SolidoRevolucion/images/ventanaSolido.jpg)
 
 #### Detalles implementación
 - ##### **Botón de ayuda**: es lo suficientemente sencillo para informar pero se ha decidido implementar como botón *interruptor* para que no moleste y solo se muestre al ser requerido por el usuario, mayor control y limpieza en la interfaz.
