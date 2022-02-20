@@ -19,7 +19,7 @@ ___
 ![Imagen Sólido](https://github.com/martinvplopez/Solid-of-revolution/blob/main/Practica2_SolidoRevolucion/images/ventanaSolido.jpg)
 
 #### Detalles implementación
-- ##### **Botón de ayuda**: es lo suficientemente sencillo para informar pero se ha decidido implementar como botón *interruptor* para que no moleste y solo se muestre al ser requerido por el usuario, mayor control y limpieza en la interfaz.
+- ##### **Información**:*Botón de ayuda*: es lo suficientemente sencillo para informar pero se ha decidido implementar como botón *interruptor* para que no moleste y solo se muestre al ser requerido por el usuario, mayor control y limpieza en la interfaz.
 - ##### **Color**: se ha elegido el color naranja como color principal (malla del sólido e instrucciones) ya que es un color que invita a la creatividad y aporta la suficiente intensidad.
 - ##### **Teclas**: *R* para que volver a dibujar, intuitiva asociación de la tecla con el concepto *reset* y *ESPACIO* para iniciar la revolución, de nuevo una tecla estándar.
 
