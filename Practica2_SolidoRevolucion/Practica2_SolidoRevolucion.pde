@@ -1,3 +1,7 @@
+// Martín van Puffelen López
+import processing.sound.*;
+//import gifAnimation.*;
+
 ArrayList<Vertex> vertices = new ArrayList<Vertex>();
 final int DEGREES=360;
 final int REVOLUTIONS=150;
@@ -9,6 +13,7 @@ int REVOLUTVIEW=3;
 boolean help=false;
 int mode=DEFAULTDRAW;
 boolean lastRev=false;
+SoundFile  revoSound;
 
 String helpText="¡Transforma un trazo 2D a un sólido 3D!";
 String help2="- Arrastra el ratón para trazar una línea";
@@ -22,6 +27,7 @@ void setup(){
   size(900,900, P3D);
   background(0);
   fill(255);
+  revoSound= new SoundFile(this,"/Typhoon.wav");
   
 }
 
@@ -83,7 +89,7 @@ void draw(){
       solidSurface=createShape();
       solidSurface.beginShape(TRIANGLE_STRIP);
       solidSurface.fill(100);
-      solidSurface.stroke(128,0,0);      
+      solidSurface.stroke(255,165,0);      
       solidSurface.strokeWeight(1);
       revolve(path);
       solidSurface.endShape();
@@ -147,6 +153,7 @@ void keyPressed(){
     resetToDraw();
   } 
   if(key==' ' && (mode!=REVOLUTVIEW && mode!=SETREVOLUTION) && path.getVertexCount()>1){
+    revoSound.play();
     help=false;
     mode=SETREVOLUTION;
   }
