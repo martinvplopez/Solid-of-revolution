@@ -24,6 +24,6 @@ ___
 - ##### **Teclas**: *R* para que volver a dibujar, intuitiva asociación de la tecla con el concepto *reset* y *ESPACIO* para iniciar la revolución, de nuevo una tecla estándar.
 
 #### Referencias
-- [Documentación asignatura](https://github.com/otsedom/otsedom.github.io/blob/main/CIU/P1/README.md)
-- [PongGame](https://www.ponggame.org/)
+- [Documentación asignatura](https://github.com/otsedom/otsedom.github.io/blob/main/CIU/P2/README.md)
+- [Sonido Tifón](https://freewavesamples.com/)
 - [Documentación Processing](https://processing.org/reference)
