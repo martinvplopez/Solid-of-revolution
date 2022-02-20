@@ -1,16 +1,16 @@
 # Solid of Revolution
 ## Realizado por Martín van Puffelen López
-### Práctica 1 CIU: *Introducción a Processing y p5.js*
+### Práctica 2 CIU: *Superficie de revolución*
 ___
 
 #### Introducción
-##### En esta primera práctica, se ha implementado el clásico **Pong**, juego basado en el tenis de mesa donde dos jugadores deben hacer que la bola atraviese el límite del otro jugador. Este juego data de 1972 y fue lanzado para la consola Atari. Ver más en [Wikipedia](https://es.wikipedia.org/wiki/Pong).
+##### En esta segunda práctica, se ha implementado la operación de producir un sólido de revolución, esto es, a partir de una forma geométrica aplicar una rotación sobre una recta que está en el mismo plano para transformarlo en una superficie tridimensional. Un ejemplo puede ser un cilindro, que es el producto de rotar un rectángulo. Ver más en [Wikipedia](https://en.wikipedia.org/wiki/Solid_of_revolution).
 
-#### Reglas del juego
-##### Una vez la referencia está clara, se pueden mostrar los detalles de esta implementación, en este caso, el jugador que alcance una puntuación de 7 puntos habrá ganado. En el inicio de la partida, la dirección de la pelota será aleatoria, pero tras cada choque con alguno de los jugadores, la pelota aumentará de velocidad. 
+#### Instrucciones
+##### Realizar un trazo arrastrando el ratón en la parte derecha de la pantalla y pulsar la tecla (*ESPACIO*) para realizar la rotación de los vértices dibujados.
 
 #### Recorrido interfaz
-##### Al iniciar el juego, se encuentra la indicación de la tecla necesaria para jugar (*ESPACIO*) y un botón que al clicar (*?*) se muestra una sencilla ventana con las reglas básicas del juego y los controles. Cuando se inicia la partida, se aprecia únicamente la puntuación y como añadido la velocidad actual de la pelota. Cuando la partida finaliza se muestra un mensaje y se posibilita al usuario el poder jugar de nuevo.
+##### Al iniciar el programa se podrá apreciar un título llamativo que no entra en detalles matemáticos para que sea atractivo y accesible. También existirá un botón (**AYUDA**) donde pulsando se mostrarán instrucciones sencillas para el correcto funcionamiento. El usuario trazará una línea y al ejecutar la revolución sonará un sonido de un tifón para realzar la idea de rotación.
 
 ![Imagen Menú](https://github.com/martinvplopez/Pong-CIU/blob/main/menu.jpg)
 ####
@@ -19,12 +19,9 @@ ___
 ![Imagen Partida](https://github.com/martinvplopez/Pong-CIU/blob/main/game.jpg)
 
 #### Detalles implementación
-##### Pese a ser un juego con reglas sencillas, existen una serie de implicaciones que son interesantes a tener en cuenta:
-- ##### **Rebotes**: en la implementación la pelota no rebota con el ángulo correcto según la zona golpeada por el jugador.
-- ##### **Velocidad** de la pelota: se muestra la velocidad de la pelota para dar fuerza a que el punto diferencial es la incrementalidad de dicha variable.
-- ##### **Sencillez**: al ser un juego con pocas reglas hay pocos elementos en la interfaz, únicamente ciertas herramientas de control (R para volver a jugar, ESC para el menú, etc) y de información (apartado de ayuda).
-- ##### **Color**: se ha elegido el color cartujo o [Chartreuse](https://es.wikipedia.org/wiki/Chartreuse_(licor)) como color principal (pelota y título) dada su representación de crecimiento, vitalidad e intensidad, que son sensaciones muy lejanas al blanco del original y concuerda perfectamente con el propósito.
-- ##### **Controles**: Se han elegido las teclas *W* y *S* para el jugador izquierdo e *I* y *K* para el derecho ya que ambas son utilizadas en diversos videojuegos y su disposición en el teclado es muy natural. Nuevamente, *ESPACIO* para iniciar el juego o *ESCAPE* para salir al menú son estándares en videojuegos de escritorio. 
+- ##### **Botón de ayuda**: es lo suficientemente sencillo para informar pero se ha decidido implementar como botón *interruptor* para que no moleste y solo se muestre al ser requerido por el usuario, mayor control y limpieza en la interfaz.
+- ##### **Color**: se ha elegido el color naranja como color principal (malla del sólido e instrucciones) ya que es un color que invita a la creatividad y aporta la suficiente intensidad.
+- ##### **Teclas**: *R* para que volver a dibujar, intuitiva asociación de la tecla con el concepto *reset* y *ESPACIO* para iniciar la revolución, de nuevo una tecla estándar.
 
 #### Referencias
 - [Documentación asignatura](https://github.com/otsedom/otsedom.github.io/blob/main/CIU/P1/README.md)
